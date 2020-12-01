@@ -1,0 +1,16 @@
+/*Build a function that returns an array of integers from n to 1 where n>0.
+
+Example : n=5 >> [5,4,3,2,1]*/
+
+
+const reverseSeq = n => {
+let arr = []; 
+  for (let i=n; i>0; i--) {
+    arr.push(i);
+    } return arr;
+};
+
+// let arr= [] creates an array
+// create a for loop with i = n, i(which is n) continues as long as it's greater than 0, with i-- because numbers are going in descending order
+// .push method adds elements to the end of the array
+
