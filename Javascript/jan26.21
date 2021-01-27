@@ -1,0 +1,9 @@
+//Create a function that takes in an array of numbers
+//Return a new array of numbers that is every original number squared
+
+let newArr= arr.map(num => num ** 2)
+console.log(newArr)
+
+/*map goes through each number, and then produces a new array
+double ** 2 represents squaring, can also use Math.pow method to square*/
+//completed during 100devs class
