@@ -11,3 +11,6 @@ function bonusTime(salary, bonus) {
     return '£' + salary
   }
 }
+
+
+// I could've also used a template literal `£${10 * salary}` `£${salary}`
