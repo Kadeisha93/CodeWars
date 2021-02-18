@@ -1,0 +1,40 @@
+/*You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+Write a code that gives out the total amount for different days(d).*/
+
+function rentalCarCost(days) {
+  let dailyCost = 40
+  let totalCost= dailyCost * days
+  if (days >= 7){
+    return totalCost -= 50
+  }else if(days >= 3){
+      return totalCost -= 20
+    }
+    return totalCost
+  }
+
+
+
+/*Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+
+Use conditionals to return the proper message:
+
+case	return
+name equals owner	'Hello boss'
+otherwise	'Hello guest'*/
+
+function greet (name, owner) {
+  if (name== owner){
+    return 'Hello boss'
+  }else{
+    return 'Hello guest'
+  }
+}
+
+
+
+/*Implement a function which multiplies two numbers.*/
+
+function multiply(n, x){
+  return n * x
+}
