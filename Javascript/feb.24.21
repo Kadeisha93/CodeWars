@@ -1,0 +1,10 @@
+When provided with a letter, return its position in the alphabet.
+Input :: "a"
+Ouput :: "Position of alphabet: 1"
+
+function position(letter){
+ let alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+ let entryLowercase= letter.toLowerCase();
+  let position= alphabet.indexOf(entryLowercase) + 1; // +1 because indexes begin at 0 ex: a is 0 b is 1, adding 1 allows accurate position number in alph to show
+    return `Position of alphabet: ${position}`;
+}
