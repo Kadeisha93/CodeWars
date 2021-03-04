@@ -1,0 +1,11 @@
+/*Create a function that takes 2 positive integers in form of a string as an input, and outputs the sum (also as a string):
+  sumStr("4", "5")    // should output "9"
+  sumStr("34", "5")   // should output "39"
+If either input is an empty string, consider it as zero.*/
+
+
+function sumStr(a,b) {
+  return (+a+ +b)+''  
+}
+
+//Used unary + to convert the string into an integer. Then added '' at the end so we could return the number as a string, as the question wanted
