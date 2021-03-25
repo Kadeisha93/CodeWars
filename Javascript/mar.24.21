@@ -6,9 +6,9 @@ a = 1 b = 4
 
 function between(a, b) {
   // your code here
-  arr = []
+  list = []
   for(i = a;i <= b; i++){ 
-      arr.push(i)
+      list.push(i)
   }
-  return arr
+  return list
 }
